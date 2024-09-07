@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="icon" type="image/png" href="blog.png">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 5px solid #0056b3;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        nav {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 0.5rem 1rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.1rem;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        article {
+            flex: 2;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        article h2 {
+            font-size: 2rem;
+            color: #007BFF;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        iframe {
+            max-width: 100%;
+            border: none;
+        }
+        aside {
+            flex: 1;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        aside h3 {
+            margin-top: 0;
+            color: #007BFF;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        ul li a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        form {
+            margin-top: 1rem;
+        }
+        form input[type="email"] {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: calc(100% - 110px);
+            box-sizing: border-box;
+        }
+        form button {
+            padding: 0.5rem 1rem;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            border-top: 5px solid #0056b3;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><u>My Personal Blog</u></h1>
+        <p>Thoughts, stories, and ideas from my life</p>
+    </header>
+    
+    <nav role="navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main role="main">
+        <article>
+            <h2>My First Blog Post</h2>
+            <p><strong>Date:</strong> September 1, 2024</p>
+            <p><strong>Author:</strong> Rupak Majumder</p>
+            <p>Welcome to my first blog post. My name is Rupak Majumder. I'm currently studying BCA at Adamas University. In my 3rd year, I'm starting my first blog post with this brief introduction of myself.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categories</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>Rupak Majumder</td>
+                    </tr>
+                    <tr>
+                        <td>Stream</td>
+                        <td>BCA</td>
+                    </tr>
+                    <tr>
+                        <td>Roll</td>
+                        <td>103</td>
+                    </tr>
+                    <tr>
+                        <td>Section</td>
+                        <td>E</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        
+        <article>
+            <h2>My Opinions on Black Myth Wukong</h2>
+            <p><strong>Date:</strong> September 1, 2024</p>
+            <p><strong>Author:</strong> Rupak Majumder</p>
+            <p>Black Myth: Wukong is nothing short of a masterpiece in the action RPG genre. From the moment you step into its world, you're captivated by the stunning visuals that bring ancient Chinese mythology to life in ways rarely seen in gaming. The combat is incredibly fluid and satisfying, demanding both strategy and skill, making every battle feel like an epic encounter.</p>
+            <p>What truly sets this game apart is its deep narrative, inspired by the classic Journey to the West. The story is rich, immersive, and filled with layers of cultural significance that draw you in, making you feel like you're part of a grand, mythological tale. The world is vast and beautifully designed, from lush forests to towering mountains and mystical temples, each environment bursting with detail and atmosphere.</p>
+            <p>While there may be some minor technical hiccups, they do little to detract from the overall experience. Black Myth: Wukong is a bold and innovative game that not only lives up to its hype but surpasses it. It’s a must-play for anyone who loves action RPGs or simply wants to experience a story-driven game with heart, soul, and a breathtaking sense of adventure.</p>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_mAnlVXtDD8" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </article>
+    </main>
+    
+    <aside>
+        <h3>Field of Interest</h3>
+        <ul>
+            <li>Cinematography</li>
+            <li>Technology</li>
+            <li>Graphics Designing</li>
+            <li>Video Games</li>
+            <li>Journalism</li>
+            <li>Anime Reviews</li>
+        </ul>
+
+        <h3>Recent Posts</h3>
+        <ul>
+            <li><a href="#first-post">My First Blog Post</a></li>
+            <li><a href="#black-myth">My Opinions on Black Myth Wukong</a></li>
+        </ul>
+        
+        <h3>Subscribe</h3>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </aside>
+    
+    <footer role="contentinfo">
+        <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+        <p>
+            <a href="https://www.instagram.com/_i_am_ruk_/" target="_blank">Instagram</a> |
+            <a href="https://x.com/MajumderRu84243" target="_blank">Twitter</a> |
+            <a href="mailto:rupakmajumder.ruk@gmail.com">Email</a>
+        </p>
+    </footer>
+</body>
+</html>
+
